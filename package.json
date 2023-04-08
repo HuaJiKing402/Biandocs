@@ -1,0 +1,61 @@
+{
+  "name": "biandocs",
+  "version": "1.0.0",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "algoliasearch": "^4.17.0",
+    "entities": "^3.0.1",
+    "esbuild": "^0.17.15",
+    "estree-walker": "^2.0.2",
+    "flexsearch": "master",
+    "function-bind": "^1.1.1",
+    "csstype": "^2.6.21",
+    "glob-to-regexp": "^0.4.1",
+    "is-core-module": "^2.11.0",
+    "has": "^1.0.3",
+    "linkify-it": "^4.0.1",
+    "magic-string": "^0.25.9",
+    "markdown-it": "^13.0.1",
+    "mdurl": "^1.0.1",
+    "nanoid": "^3.3.6",
+    "picocolors": "^1.0.0",
+    "ansi-sequence-parser": "^1.1.0",
+    "postcss": "^8.4.21",
+    "resolve": "^1.22.1",
+    "path-parse": "^1.0.7",
+    "rollup": "^3.20.2",
+    "shiki": "^0.14.1",
+    "source-map": "^0.6.1",
+    "source-map-js": "^1.0.2",
+    "sourcemap-codec": "^1.4.8",
+    "uc.micro": "^1.0.6",
+    "vite": "^4.2.1",
+    "supports-preserve-symlinks-flag": "^1.0.0",
+    "vitepress": "^1.0.0-alpha.65",
+    "vitepress-plugin-search": "^1.0.4-alpha.20",
+    "vscode-oniguruma": "^1.7.0",
+    "vscode-textmate": "^8.0.0",
+    "vue": "^3.2.47",
+    "argparse": "^2.0.1",
+    "jsonc-parser": "^3.2.0",
+    "preact": "^10.13.2"
+  },
+  "devDependencies": {
+    "flexsearch": "master",
+    "vitepress": "^1.0.0-alpha.64",
+    "vitepress-plugin-search": "^1.0.4-alpha.20"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "author": "Create",
+  "license": "ISC"
+}
